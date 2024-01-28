@@ -1,0 +1,22 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+* {
+  box-sizing: border-box;
+}
+.each-suggestion {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.suggestion {
+    color: #475569;
+    font-weight: 400;
+}
+.arrow {
+    width: 25px;
+    height: 25px;
+    align-self: center;
+}
